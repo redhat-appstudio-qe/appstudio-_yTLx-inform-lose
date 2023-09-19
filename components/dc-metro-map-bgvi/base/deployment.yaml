@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-bgvi
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/release-e2e-deploy-tenant/appstudio/dc-metro-map-bgvi@sha256:948ae1d02ac773cf9f80ec5f8a3df1409e36469b3d24885fd9e4fc234bbccd6f
         name: my-nodejs
         ports:
         - containerPort: 3001
